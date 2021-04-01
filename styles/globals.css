@@ -1,3 +1,7 @@
+:root {
+  font-size: 16px;
+}
+
 html,
 body {
   padding: 0;
@@ -13,4 +17,5 @@ a {
 
 * {
   box-sizing: border-box;
+  margin: 0;
 }
