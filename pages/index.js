@@ -206,7 +206,7 @@ export default function Home() {
             <section>
               <h2 className={classNames(styles.h2, styles.experienceTitle)}>
                 <span className={styles.emoji} aria-hidden="true">
-                  🛠
+                  ⚒️
                 </span>{' '}
                 Open Source
               </h2>
