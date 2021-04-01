@@ -55,7 +55,7 @@ export default function Home() {
               <div className={styles.pdf}>
                 <span>
                   For clickable links:{' '}
-                  <a href="rico.codes/resume">rico.codes/resume</a>
+                  <a href="https://rico.codes/resume">rico.codes/resume</a>
                 </span>
               </div>
               <a
