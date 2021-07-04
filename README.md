@@ -6,6 +6,8 @@ you can see a rendered version [here](https://rico.codes/resume)
 
 this is a next.js project purely for a fast DX but it doesn't really need all that.
 
+also disclaimer: i made this thing pretty quickly so certain things may be wonky
+
 if you'd like to use this:
 
 1. clone the repo
