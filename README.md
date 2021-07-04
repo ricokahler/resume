@@ -2,6 +2,8 @@ this repo is where i put my resume.
 
 i made it with HTML + CSS so i could position things how i wanted and so i could use emoji 😇
 
+you can see a rendered version [here](https://rico.codes/resume)
+
 this is a next.js project purely for a fast DX but it doesn't really need all that.
 
 if you'd like to use this:
