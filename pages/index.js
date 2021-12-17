@@ -87,24 +87,24 @@ export default function Home() {
               </a>
             </div>
             <div className={styles.contact}>
-              <a className={styles.email} href="mailto:ricokahler@me.com">
-                ricokahler@me.com
+              <a className={styles.email} href="mailto:hello@rico.codes">
+                hello@rico.codes
               </a>
               <span aria-hidden="true">/</span>
               <a href="tel:1-313-269-9072">(313) 269-9072</a>
             </div>
           </div>
         </header>
-        <div className={styles.subtitle}>
-          Frontend Software Engineer Extraordinaire 🎉
-        </div>
+        <div className={styles.subtitle}>Frontend Software Engineer 🎉</div>
         <div className={styles.mission}>
           <p>
-            I build consumer-facing websites as well as developer-facing tools.
-            I care deeply about UX, DX, performance, a11y, and SEO. I currently
-            specialize in the Jamstack space of frontend and I also work with
-            serverless architectures and infrastructures using platforms like
-            Vercel and frameworks like Serverless.
+            I build consumer-facing apps and websites as well as
+            developer-facing tools.
+          </p>
+          <p>
+            I specialize in the tooling + React space of the frontend and also
+            work with serverless architectures using platforms like Vercel and
+            frameworks like Serverless.
           </p>
         </div>
         <div className={styles.grid}>
@@ -118,35 +118,58 @@ export default function Home() {
               </h2>
               <ul className={styles.experienceList}>
                 <li>
+                  <h3 className={styles.workplaceTitle}>🌶 Sanity</h3>
+                  <div className={styles.formalTitle}>
+                    <span>Sr. Frontend Developer</span>
+                    <span aria-hidden="true">/</span>
+                    <span>2021 - Present</span>
+                    <span aria-hidden="true">/</span>
+                    <span>Remote</span>
+                  </div>
+                  <ul className={styles.list}>
+                    <li>
+                      Building the{' '}
+                      <a href="https://www.sanity.io/studio">Sanity Studio</a>
+                    </li>
+                    <li>
+                      Shipped{' '}
+                      <a href="https://youtu.be/fgdQS6oIkJA?t=417">
+                        References in Place
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li>
                   <h3 className={styles.workplaceTitle}>🌿 Bloomscape</h3>
                   <div className={styles.formalTitle}>
                     <span>Sr. Frontend Developer</span>
                     <span aria-hidden="true">/</span>
-                    <span>2019 - Present</span>
+                    <span>2019 - 2021</span>
                     <span aria-hidden="true">/</span>
                     <span>Detroit + Remote</span>
                   </div>
                   <ul className={styles.list}>
                     <li>
-                      Leading headless jamstack rebuild of{' '}
+                      Led headless jamstack rebuild of{' '}
                       <a href="https://bloomscape.com">Bloomscape.com</a> in
                       Next.js, Sanity, and BigCommerce
                     </li>
                     <li>
-                      Continuously working on perf, a11y, SEO, and Core Web
+                      Continuously worked on perf, a11y, SEO, and Core Web
                       Vitals
                     </li>
                     <li>
-                      Building <a href="https://bloomscape.com/vera/">Vera</a> —
-                      React Native + Firebase App
+                      Contributed to{' '}
+                      <a href="https://bloomscape.com/vera/">Vera</a> — React
+                      Native + Firebase App
                     </li>
                     <li>
                       Built headless, react-based checkout for Bloomscape.com
                     </li>
                     <li>
-                      Created internal applications for on-demand printing in
-                      the greenhouse shipping line and internal shipping
-                      visibility
+                      Created internal apps for internal shipping visibility and
+                      on-demand printing in the greenhouse shipping line
                     </li>
                   </ul>
                 </li>
@@ -184,23 +207,6 @@ export default function Home() {
                     <li>Mentored other developers on React and TypeScript</li>
                   </ul>
                 </li>
-
-                <li>
-                  <h3 className={styles.workplaceTitle}>💡 GE Digital</h3>
-                  <div className={styles.formalTitle}>
-                    <span>EID Intern</span>
-                    <span aria-hidden="true">/</span>
-                    <span>2015 - 2017</span>
-                    <span aria-hidden="true">/</span>
-                    <span>Detroit Metropolitan Area</span>
-                  </div>
-                  <ul className={styles.list}>
-                    <li>
-                      Participated in a rotational program involving web
-                      technology (primarily Spring, Angular, and Polymer)
-                    </li>
-                  </ul>
-                </li>
               </ul>
             </section>
             <section>
@@ -215,50 +221,50 @@ export default function Home() {
                 <OpenSourceItem
                   link="https://color2k.com"
                   title="color2k"
-                  description="small color manipulation library (2.8kB)"
-                  stars={371}
+                  description="small color manipulation library (2.9kB)"
+                  stars={399}
                 />
                 <OpenSourceItem
                   link="https://hacker-ui.com"
                   title="hacker-ui"
                   description="react component library"
-                  stars={242}
+                  stars={239}
                 />
                 <OpenSourceItem
                   link="https://github.com/ricokahler/next-data-hooks"
                   title="next-data-hooks"
                   description="next.js static react hooks"
-                  stars={120}
+                  stars={404}
                 />
                 <OpenSourceItem
                   link="https://github.com/ricokahler/pool"
                   title="@ricokahler/pool"
                   description="limited concurrency Promise.all"
-                  stars={78}
+                  stars={102}
                 />
                 <OpenSourceItem
                   link="https://www.sanity.io/plugins/sanity-codegen"
                   title="sanity-codegen"
                   description="sanity.io TypeScript codegen"
-                  stars={58}
+                  stars={119}
                 />
                 <OpenSourceItem
                   link="https://github.com/ricokahler/next-plugin-preval"
                   title="next-plugin-preval"
                   description="next.js code pre-evaluation"
-                  stars={43}
+                  stars={141}
                 />
                 <OpenSourceItem
                   link="https://github.com/ricokahler/next-plugin-query-cache"
                   title="next-plugin-query-cache"
                   description="next.js build cache"
-                  stars={32}
+                  stars={43}
                 />
                 <OpenSourceItem
                   link="https://longtweet.io"
                   title="longtweet.io"
                   description="Jamstack microblogging service"
-                  stars={20}
+                  stars={21}
                 />
               </ul>
             </section>
@@ -274,12 +280,13 @@ export default function Home() {
               </h2>
 
               <ul className={styles.list}>
-                <li>Next.js / React</li>
+                <li>React / Next.js</li>
                 <li>HTML / CSS</li>
                 <li>JavaScript / TypeScript</li>
                 <li>Node.js / npm</li>
                 <li>Perf / Core Web Vitals</li>
                 <li>Redux / Flux Patterns</li>
+                <li>RxJS / Async Programming</li>
                 <li>Jamstack / CDN</li>
                 <li>Serverless / CloudFormation</li>
                 <li>Webpack / Loader Authoring</li>
@@ -297,6 +304,11 @@ export default function Home() {
               </h2>
 
               <ul className={classNames(styles.list, styles.publicationList)}>
+                <li>
+                  <a href="https://www.sanity.io/blog/obvious-features-aren-t-obviously-made">
+                    Obvious features aren't obviously made
+                  </a>
+                </li>
                 <li>
                   <a href="https://dev.to/sanity-io/make-a-progressive-web-app-with-react-45gh">
                     Make a Progressive Web App with React
