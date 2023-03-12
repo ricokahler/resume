@@ -118,18 +118,44 @@ export default function Home() {
               </h2>
               <ul className={styles.experienceList}>
                 <li>
-                  <h3 className={styles.workplaceTitle}>🌶 Sanity</h3>
+                  <h3 className={styles.workplaceTitle}>😏 Amazon</h3>
                   <div className={styles.formalTitle}>
-                    <span>Sr. Frontend Developer</span>
+                    <span>Sr. Front End Engineer</span>
                     <span aria-hidden="true">/</span>
-                    <span>2021 - Present</span>
+                    <span>2022 - Present</span>
                     <span aria-hidden="true">/</span>
                     <span>Remote</span>
                   </div>
                   <ul className={styles.list}>
                     <li>
-                      Building the{' '}
+                      Leading effort to bring server rendering to Seller Central
+                    </li>
+                    <li>
+                      Consulted internal teams on Web performance for Seller
+                      Central
+                    </li>
+                  </ul>
+                </li>
+
+                <li>
+                  <h3 className={styles.workplaceTitle}>🌶 Sanity</h3>
+                  <div className={styles.formalTitle}>
+                    <span>Sr. Frontend Developer</span>
+                    <span aria-hidden="true">/</span>
+                    <span>2021 - 2022</span>
+                    <span aria-hidden="true">/</span>
+                    <span>Remote</span>
+                  </div>
+                  <ul className={styles.list}>
+                    <li>
+                      Contributed to the{' '}
                       <a href="https://www.sanity.io/studio">Sanity Studio</a>
+                    </li>
+                    <li>
+                      Designed and implemented the{' '}
+                      <a href="https://www.sanity.io/docs/configuration">
+                        Config API for Sanity v3
+                      </a>
                     </li>
                     <li>
                       Shipped{' '}
@@ -167,10 +193,6 @@ export default function Home() {
                     <li>
                       Built headless, react-based checkout for Bloomscape.com
                     </li>
-                    <li>
-                      Created internal apps for internal shipping visibility and
-                      on-demand printing in the greenhouse shipping line
-                    </li>
                   </ul>
                 </li>
 
@@ -185,7 +207,7 @@ export default function Home() {
                   </div>
                   <ul className={styles.list}>
                     <li>
-                      Engineered an{' '}
+                      Created an{' '}
                       <a href="https://www.justsift.com/features/org-chart">
                         interactive Org Chart
                       </a>{' '}
@@ -198,13 +220,11 @@ export default function Home() {
                       </a>
                     </li>
                     <li>
-                      Created a hooks-based{' '}
+                      Created a{' '}
                       <a href="https://resift.org">
                         data-fetching and state management library
-                      </a>{' '}
-                      for internal team members
+                      </a>
                     </li>
-                    <li>Mentored other developers on React and TypeScript</li>
                   </ul>
                 </li>
               </ul>
@@ -222,49 +242,37 @@ export default function Home() {
                   link="https://color2k.com"
                   title="color2k"
                   description="small color manipulation library (2.9kB)"
-                  stars={399}
+                  stars={528}
                 />
                 <OpenSourceItem
                   link="https://hacker-ui.com"
                   title="hacker-ui"
                   description="react component library"
-                  stars={239}
+                  stars={242}
                 />
                 <OpenSourceItem
                   link="https://github.com/ricokahler/next-data-hooks"
                   title="next-data-hooks"
                   description="next.js static react hooks"
-                  stars={404}
+                  stars={712}
                 />
                 <OpenSourceItem
                   link="https://github.com/ricokahler/pool"
                   title="@ricokahler/pool"
                   description="limited concurrency Promise.all"
-                  stars={102}
+                  stars={129}
                 />
                 <OpenSourceItem
                   link="https://www.sanity.io/plugins/sanity-codegen"
                   title="sanity-codegen"
                   description="sanity.io TypeScript codegen"
-                  stars={119}
+                  stars={216}
                 />
                 <OpenSourceItem
                   link="https://github.com/ricokahler/next-plugin-preval"
                   title="next-plugin-preval"
                   description="next.js code pre-evaluation"
-                  stars={141}
-                />
-                <OpenSourceItem
-                  link="https://github.com/ricokahler/next-plugin-query-cache"
-                  title="next-plugin-query-cache"
-                  description="next.js build cache"
-                  stars={43}
-                />
-                <OpenSourceItem
-                  link="https://longtweet.io"
-                  title="longtweet.io"
-                  description="Jamstack microblogging service"
-                  stars={21}
+                  stars={243}
                 />
               </ul>
             </section>
@@ -288,7 +296,7 @@ export default function Home() {
                 <li>Redux / Flux Patterns</li>
                 <li>RxJS / Async Programming</li>
                 <li>Jamstack / CDN</li>
-                <li>Serverless / CloudFormation</li>
+                <li>CloudFormation / CDK</li>
                 <li>Webpack / Loader Authoring</li>
                 <li>Babel / Plugin Authoring</li>
                 <li>Rollup / Package Authoring</li>
