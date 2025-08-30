@@ -53,10 +53,10 @@ export default function Home() {
           <div className={styles.links}>
             <div className={styles.icons}>
               <div className={styles.pdf}>
-                <span>
+                {/* <span>
                   For clickable links:{' '}
                   <a href="https://rico.codes/resume">rico.codes/resume</a>
-                </span>
+                </span> */}
               </div>
               <a
                 title="Rico Kahler's GitHub"
@@ -87,24 +87,23 @@ export default function Home() {
               </a>
             </div>
             <div className={styles.contact}>
-              <a className={styles.email} href="mailto:hello@rico.codes">
-                hello@rico.codes
+              <a className={styles.email} href="mailto:ricokahler@gmail.com">
+                ricokahler@gmail.com
               </a>
               <span aria-hidden="true">/</span>
               <a href="tel:1-313-269-9072">(313) 269-9072</a>
             </div>
           </div>
         </header>
-        <div className={styles.subtitle}>Frontend Software Engineer 🎉</div>
+        <div className={styles.subtitle}>
+          Software Engineer, DX & Platform Tooling 🎉
+        </div>
         <div className={styles.mission}>
           <p>
-            I build consumer-facing apps and websites as well as
-            developer-facing tools.
-          </p>
-          <p>
-            I specialize in the tooling + React space of the frontend and also
-            work with serverless architectures using platforms like Vercel and
-            frameworks like Serverless.
+            I build foundational tools and systems for the modern web. My
+            passion lies in untangling complex, low-level engineering problems
+            and architecting elegant, large-scale systems with a deep focus on
+            performance and computational efficiency.
           </p>
         </div>
         <div className={styles.grid}>
@@ -118,50 +117,57 @@ export default function Home() {
               </h2>
               <ul className={styles.experienceList}>
                 <li>
+                  <h3 className={styles.workplaceTitle}>🌶 Sanity</h3>
+                  <div className={styles.formalTitle}>
+                    <span>Sr. Software Engineer</span>
+                    <span aria-hidden="true">/</span>
+                    <span>2021 - 2022, 2023 - 2025</span>
+                    <span aria-hidden="true">/</span>
+                    <span>Remote</span>
+                  </div>
+                  <ul className={styles.list}>
+                    <li>
+                      Architected and led the development of the{' '}
+                      <a href="https://github.com/sanity-io/sdk">
+                        Sanity App SDK
+                      </a>
+                      , a foundational toolkit for building real-time,
+                      multiplayer content apps.
+                    </li>
+                    <li>
+                      Authored numerous performance-critical libraries for the
+                      Sanity ecosystem, including{' '}
+                      <a href="https://github.com/sanity-io/json-match">
+                        @sanity/json-match
+                      </a>
+                      , a lazy JSON query engine.
+                    </li>
+                    <li>
+                      Designed and implemented the core{' '}
+                      <a href="https://www.sanity.io/docs/configuration">
+                        configuration API
+                      </a>{' '}
+                      for the Sanity Studio, enabling deep developer
+                      customization of the CMS.
+                    </li>
+                  </ul>
+                </li>
+                <li>
                   <h3 className={styles.workplaceTitle}>😏 Amazon</h3>
                   <div className={styles.formalTitle}>
                     <span>Sr. Front End Engineer</span>
                     <span aria-hidden="true">/</span>
-                    <span>2022 - Present</span>
+                    <span>2022 - 2023</span>
                     <span aria-hidden="true">/</span>
                     <span>Remote</span>
                   </div>
                   <ul className={styles.list}>
                     <li>
-                      Leading effort to bring server rendering to Seller Central
+                      Lead efforts to bring server rendering to Seller Central
                     </li>
                     <li>
                       Consulted internal teams on Web performance for Seller
                       Central
-                    </li>
-                  </ul>
-                </li>
-
-                <li>
-                  <h3 className={styles.workplaceTitle}>🌶 Sanity</h3>
-                  <div className={styles.formalTitle}>
-                    <span>Sr. Frontend Developer</span>
-                    <span aria-hidden="true">/</span>
-                    <span>2021 - 2022</span>
-                    <span aria-hidden="true">/</span>
-                    <span>Remote</span>
-                  </div>
-                  <ul className={styles.list}>
-                    <li>
-                      Contributed to the{' '}
-                      <a href="https://www.sanity.io/studio">Sanity Studio</a>
-                    </li>
-                    <li>
-                      Designed and implemented the{' '}
-                      <a href="https://www.sanity.io/docs/configuration">
-                        Config API for Sanity v3
-                      </a>
-                    </li>
-                    <li>
-                      Shipped{' '}
-                      <a href="https://youtu.be/fgdQS6oIkJA?t=417">
-                        References in Place
-                      </a>
                     </li>
                   </ul>
                 </li>
@@ -242,37 +248,36 @@ export default function Home() {
                   link="https://color2k.com"
                   title="color2k"
                   description="small color manipulation library (2.9kB)"
-                  stars={528}
-                />
-                <OpenSourceItem
-                  link="https://hacker-ui.com"
-                  title="hacker-ui"
-                  description="react component library"
-                  stars={242}
+                  stars={624}
                 />
                 <OpenSourceItem
                   link="https://github.com/ricokahler/next-data-hooks"
                   title="next-data-hooks"
                   description="next.js static react hooks"
-                  stars={712}
+                  stars={720}
                 />
                 <OpenSourceItem
                   link="https://github.com/ricokahler/pool"
                   title="@ricokahler/pool"
                   description="limited concurrency Promise.all"
-                  stars={129}
+                  stars={142}
                 />
                 <OpenSourceItem
                   link="https://www.sanity.io/plugins/sanity-codegen"
                   title="sanity-codegen"
                   description="sanity.io TypeScript codegen"
-                  stars={216}
+                  stars={270}
                 />
                 <OpenSourceItem
-                  link="https://github.com/ricokahler/next-plugin-preval"
-                  title="next-plugin-preval"
-                  description="next.js code pre-evaluation"
-                  stars={243}
+                  link="https://color2k.com"
+                  title="babel-plugin-tsconfig-paths-module-resolver"
+                  description={
+                    <>
+                      <br />
+                      resolves tsconfig paths in babel
+                    </>
+                  }
+                  stars={41}
                 />
               </ul>
             </section>
@@ -288,17 +293,17 @@ export default function Home() {
               </h2>
 
               <ul className={styles.list}>
+                <li>System Architecture / Design</li>
+                <li>DX / API Design</li>
                 <li>React / Next.js</li>
                 <li>HTML / CSS</li>
                 <li>JavaScript / TypeScript</li>
+                <li>Testing / Vitest</li>
                 <li>Node.js / npm</li>
                 <li>Perf / Core Web Vitals</li>
                 <li>Redux / Flux Patterns</li>
                 <li>RxJS / Async Programming</li>
-                <li>Jamstack / CDN</li>
-                <li>CloudFormation / CDK</li>
-                <li>Webpack / Loader Authoring</li>
-                <li>Babel / Plugin Authoring</li>
+                <li>Vite / Plugin Authoring</li>
                 <li>Rollup / Package Authoring</li>
               </ul>
             </section>
@@ -306,12 +311,17 @@ export default function Home() {
             <section>
               <h2 className={classNames(styles.h2, styles.experienceTitle)}>
                 <span className={styles.emoji} aria-hidden="true">
-                  📝
+                  🎥
                 </span>{' '}
-                Publications
+                Media
               </h2>
 
               <ul className={classNames(styles.list, styles.publicationList)}>
+                <li>
+                  <a href="https://youtu.be/aMNTPYq9CPY?si=izr2XQOHqvF8Snw2">
+                    Who puts a CMS in the terminal?!
+                  </a>
+                </li>
                 <li>
                   <a href="https://www.sanity.io/blog/obvious-features-aren-t-obviously-made">
                     Obvious features aren't obviously made

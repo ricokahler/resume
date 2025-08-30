@@ -122,7 +122,7 @@
 
 .grid {
   display: grid;
-  grid-template-columns: 5in 1fr;
+  grid-template-columns: 5.25in 1fr;
   column-gap: 2rem;
   row-gap: 1.5rem;
 }
